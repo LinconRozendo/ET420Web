@@ -10,9 +10,7 @@ from flask import Flask
 from app import app
 from dash.exceptions import PreventUpdate
 from dashboard import dashboard_carga, dashboard_descarga, dashboard_bypass, dashboard_components, dashboard_app, dashboard_equipe
-import os
 
-os.environ['DISPLAY'] = ':0'
 
 #server = Flask(__name__)
 server = app.server
