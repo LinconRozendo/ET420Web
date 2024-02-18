@@ -6,6 +6,9 @@ import dash_bootstrap_components as dbc
 import dash_trich_components as dtc
 from flask import Flask
 from app import app
+import os
+
+os.environ['DISPLAY'] = ':0'
 
 
 

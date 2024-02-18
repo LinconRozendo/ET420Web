@@ -2,6 +2,9 @@
 
 import dash
 from flask import Flask
+import os
+
+os.environ['DISPLAY'] = ':0'
 
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 

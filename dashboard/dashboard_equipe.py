@@ -8,6 +8,9 @@ import dash_trich_components as dtc
 from flask import Flask
 from app import app
 import pyautogui
+import os
+
+os.environ['DISPLAY'] = ':0'
 
 
 

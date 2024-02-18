@@ -8,6 +8,9 @@ from flask import Flask
 from app import app
 import pyautogui
 from dash.exceptions import PreventUpdate
+import os
+
+os.environ['DISPLAY'] = ':0'
 
 
 
